@@ -7,8 +7,6 @@ import math
 from aiogram import Bot, types,Dispatcher
 from aiogram.filters.command import Command
 
-logging.basicConfig(level=logging.INFO)
-bot = Bot(token="1935133534:AAHkLp8ctu2dZu33bikWv_p4osN3bNx610Q")
 dp = Dispatcher()
 
 @dp.message(Command("start"))
